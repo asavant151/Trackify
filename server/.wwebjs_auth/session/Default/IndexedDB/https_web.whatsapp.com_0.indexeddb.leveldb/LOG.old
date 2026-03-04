@@ -1,3 +1,14 @@
-2026/03/04-13:07:47.909 3a30 Reusing MANIFEST D:\Trackify\server\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
-2026/03/04-13:07:47.910 3a30 Recovering log #38
-2026/03/04-13:07:47.948 3a30 Reusing old log D:\Trackify\server\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000038.log 
+2026/03/04-13:08:00.850 25f4 Reusing MANIFEST D:\Trackify\server\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/03/04-13:08:00.851 25f4 Recovering log #38
+2026/03/04-13:08:00.884 25f4 Reusing old log D:\Trackify\server\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000038.log 
+2026/03/04-13:37:47.121 25f4 Level-0 table #44: started
+2026/03/04-13:37:47.197 25f4 Level-0 table #44: 1692253 bytes OK
+2026/03/04-13:37:47.231 25f4 Delete type=0 #38
+2026/03/04-13:38:05.143 25f4 Compacting 1@1 + 2@2 files
+2026/03/04-13:38:05.512 25f4 Generated table #45@1: 42677 keys, 2201746 bytes
+2026/03/04-13:38:05.605 25f4 Generated table #46@1: 9945 keys, 644700 bytes
+2026/03/04-13:38:05.605 25f4 Compacted 1@1 + 2@2 files => 2846446 bytes
+2026/03/04-13:38:05.626 25f4 compacted to: files[ 0 0 2 0 0 0 0 ]
+2026/03/04-13:38:05.627 25f4 Delete type=2 #40
+2026/03/04-13:38:05.627 25f4 Delete type=2 #41
+2026/03/04-13:38:05.627 25f4 Delete type=2 #44

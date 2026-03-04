@@ -39,7 +39,7 @@ export const AuthProvider = ({ children }) => {
 
     const login = async (email, password) => {
         try {
-            const res = await axios.post('http://localhost:5000/api/auth/login', { email, password });
+            const res = await axios.post('http://trackify-server-chi.vercel.app/api/auth/login', { email, password });
             localStorage.setItem('token', res.data.token);
             setUser(res.data);
             return { success: true, role: res.data.role };
@@ -50,7 +50,7 @@ export const AuthProvider = ({ children }) => {
 
     const register = async (userData) => {
         try {
-            const res = await axios.post('http://localhost:5000/api/auth/register', userData);
+            const res = await axios.post('http://trackify-server-chi.vercel.app/api/auth/register', userData);
             localStorage.setItem('token', res.data.token);
             setUser(res.data);
             return { success: true, role: res.data.role };
